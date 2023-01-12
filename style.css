@@ -1,0 +1,57 @@
+body{
+  background-image: url("sfondo.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.contenitore{
+  border-radius: 3%;
+  padding: 50px;
+  background-color:rgba(0,0,0, 0.5);
+  width: 750px;
+  margin: auto;
+}
+.contenitore-2{
+  color: white;
+}
+.logo{
+  padding-top: 30px;
+  margin-left: 270px;
+  margin-right: 270px;
+  width: 200px;
+}
+.titolo{
+  text-align: center;
+ color: lime;
+}
+.tasti{
+  padding: 10px;
+  text-align: center;
+  background-color: lime;
+  margin: auto;
+}
+.nome-monopattino{
+  margin-bottom: 1px;
+  display: inline-block;
+}
+p{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.batteria-50 rect{
+  fill:rgb(255,255,0);
+  stroke-width:0;
+  stroke:rgb(0,0,0);
+}
+svg{
+  margin-bottom: 0px;
+}
+.batteria-10 rect{
+  fill:rgb(255,0,0);
+  stroke-width:0;
+  stroke:rgb(0,0,0);
+}
+.batteria-100 rect{
+  fill:rgb(0,255,0);
+  stroke-width:0;
+  stroke:rgb(0,0,0);
+}
